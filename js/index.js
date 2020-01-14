@@ -17,7 +17,7 @@ $(function(){
 		url: "http://admin.jrjl.net/api/home/mobile/index",
 		dataType: "json",
 		data: {
-	
+			
 		}, //请求参数
 		beforeSend: function() {
 			//请求前的处理
@@ -62,3 +62,6 @@ $(function(){
 		},
 	})
 })
+function toDetail(){
+	window.location.href='newsDetail.html'
+}
